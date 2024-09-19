@@ -1,49 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html> 
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer Desafio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <title>Cv Jose Venegas</title>
 </head>
 <body>
-    <h1> Curriculum Vitae <br></h1>
-    <h2>Jose Venegas <br> </h2>
+    <nav class="navbar navbar-expand-md bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar-toggler" style="">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portada">Jose Venegas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#datos">Datos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
-<img src="./Assets/Img/Perfil Cv.jpg" alt="Imagen de perfil" width="230" height="200">
+    <section class="hero align-items-stretch mt-5 bg-dark" id="portada " >
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center text-white text-align align-items-center" >
+          <img class="hero-logo" src="assets/img/perfil_cv.jpg" alt="ilustracion Jose" width="230" height="200">
+          <h1>Jose Venegas</h1>
+          <h2> Programador, iustrador y con la mente en las nubes</h2>
+        </div>
+    </section>
 
-<ol>
- <H2>Informacion personal</H2>
-    <ul> 
-        <li> Nombre : Jose Venegas</li>
-        <li> Fecha nacimiento : 13 de marzo 1989</li>
-        <li> Ciudad: Antofagasta</li>
-        <li> Numero: 934823292  contacto</li>
-        <li> Correo: Jc.Venergas000@gmail.com</li>
+    <section class="fondo ">
+        <div class="container d-flex align-items-center flex-column bg-dark p-4  " style=" --bs-bg-opacity: .5;">
+            <div  class="text-white ">
+                
+                    <div class="container-fluid align-items-center flex-column position-relative ">  
+                        <H2>Informacion personal</H2>
+                        <ul> 
+                        <li> Nombre : Jose Venegas</li>
+                        <li> Fecha nacimiento : 13 de marzo 1989</li>
+                        <li> Ciudad: Antofagasta</li>
+                        <li> Numero: 934823292  contacto</li>
+                        <li> Correo: Jc.Venergas000@gmail.com</li>
+                
+                        </ul>
+                    </div>
+                    <div  class="container-fluid align-items-center flex-column position-relative ">
+                        <H2>Informacion academica </H2>
+                        <ul> 
+                            <li> Titulo universitario : Analista programador</li>
+                            <li> Año egreso: 2021 <br></li>
+                            <p></p>
+                            <li> Diplomado : Data Science Duoc Uc </li>
+                            <li> Año : 2022</li>
+                            <p></p>
+                            <li> Cursos : Blender Coderhouse</li>
+                            <li> Año : 2023</li>
+                            <p></p>
+                        </ul>
+                    </div>
+ 
+                      
+                      
+         
+               
+            </div>
 
-    </ul>
-    <H2>Informacion academica </H2>
-    <ul> 
-        <li> Titulo universitario : Analista programador</li>
-        <li> Año egreso: 2021 <br></li>
-        <p></p>
-        <li> Diplomado : Data Science Duoc Uc </li>
-        <li> Año : 2022</li>
-        <p></p>
-        <li> Cursos : Blender Coderhouse</li>
-        <li> Año : 2023</li>
-        <p></p>
-    </ul>
-<h2>Descripcion y habilidades</h2>
-<p> Me llamo Jose venegas, me considero una persona bastante creativa,que siempre esta buscando algo que hacer o aprender<br>
-tengo estudio en programacion , se manejar a nivel medio python, C# , Oracle.<br>
- Tambien poseo conocimientos en bases de datos, wordpress y data science <br>
-pero nunca e ejercido mas alla de crear paginas web o servicio tecnico.<br>
- Por lo cual espero Desafio Latam me ayude a posicionarme en el mercado.</p>
-</ol>
-<H2>Links para conocerme mas!</H2>
+        </div>
+          
 
-<a href= "portafolio.html"> Link Portafolio <br></a>
-<a href= "https://instagram.com/misterk_3d"> Pagina de impresion 3D </a>
+       
+        <div class="container-fluid align-items-center flex-column">
+            <h2>Descripcion y habilidades</h2>
+            <p> Me llamo Jose venegas, me considero una persona bastante creativa,que siempre esta buscando algo que hacer o aprender<br>
+            tengo estudio en programacion , se manejar a nivel medio python, C# , Oracle.<br>
+             Tambien poseo conocimientos en bases de datos, wordpress y data science <br>
+            pero nunca e ejercido mas alla de crear paginas web o servicio tecnico.<br>
+             Por lo cual espero Desafio Latam me ayude a posicionarme en el mercado.</p>
+        </div>
+
+    </section>
+    <section class="row wrap flex-direction justify-content-center p-4">
+       
+        <div class="col-xs-12 col-md-3 m-4 "> 
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/ilustracion_1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">habilidades</h5>
+                  <p class="card-text">Poseo una gran imaginacion, la cual plasmo en ilustraciones coloridas!</p>
+         
+                </div>
+              
+              </div>
+        </div>
+
+    </section>
+<footer class="row bg-dark  justify-content-center text-black text-center pt-3 pb-5 px-2; text-white">
+        <div class="w-25">
+            <h3 >Jose Venegas<br></h3>
+            <p>Mis redes sociales!</p>
+        </div>
+      
+           <p> <span>Copyright</span> <strong class="px-1 sitename">Jose Venegas</strong> <span>All Rights Reserved</span></p>
+
+    </footer>
+    <H2>Links para conocerme mas!</H2>
+    <a href= "portafolio.html"> Link Portafolio <br></a>
+    <a href= "https://instagram.com/misterk_3d"> Pagina de impresion 3D </a>
+
 </body>
 </html>

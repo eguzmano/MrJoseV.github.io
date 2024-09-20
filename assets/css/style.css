@@ -4,3 +4,10 @@
     background-position: center top;
     background-repeat: repeat;
    }
+
+.fondo_footer {
+    background-image: url(../img/fondo-pixel2.png);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: repeat;
+}

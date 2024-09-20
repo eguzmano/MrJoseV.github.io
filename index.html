@@ -36,19 +36,20 @@
         </div>
     </nav>
 
-    <section class="hero align-items-stretch mt-5 bg-dark" id="portada " >
+    <section class="hero align-items-stretch mt-5 bg-dark pb-5" id="portada" >
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center text-white text-align align-items-center" >
           <img class="hero-logo" src="assets/img/perfil_cv.jpg" alt="ilustracion Jose" width="230" height="200">
           <h1>Jose Venegas</h1>
-          <h2> Programador, iustrador y con la mente en las nubes</h2>
+          <h2> Programador, ilustrador y con la mente en las nubes</h2>
         </div>
     </section>
 
-    <section class="fondo ">
-        <div class="container d-flex align-items-center flex-column bg-dark p-4  " style=" --bs-bg-opacity: .5;">
-            <div  class="text-white ">
+    <!-- Datos personales -->
+    <section class="fondo " id="datos">
+        <div class="container-md  flex-column bg-dark p-4  " style=" --bs-bg-opacity: .5;">
+            <div  class="row text-white justify-content-md-center ">
                 
-                    <div class="container-fluid align-items-center flex-column position-relative ">  
+                    <div class="col-xs-12 col-md-6 p-4">  
                         <H2>Informacion personal</H2>
                         <ul> 
                         <li> Nombre : Jose Venegas</li>
@@ -59,7 +60,7 @@
                 
                         </ul>
                     </div>
-                    <div  class="container-fluid align-items-center flex-column position-relative ">
+                    <div  class="col-xs-12 col-md-6  p-4">
                         <H2>Informacion academica </H2>
                         <ul> 
                             <li> Titulo universitario : Analista programador</li>
@@ -73,43 +74,94 @@
                             <p></p>
                         </ul>
                     </div>
- 
-                      
-                      
-         
+            </div>
+        </div>
+    </section>
+    <!-- Descripcion personal -->
+    <section class="row wrap flex-direction justify-content-center bg-dark  text-center text-white align-items-center pt-3">
+        <div class="col-xs-12 col-md-6 m-4 ">
+            <h2> <span> Descripcion </span></h2>
+            <p> Me llamo Jose venegas, tengo 35 años, Chileno, vivo en antofagasta.
+            <br> Me considero una persona bastante creativa,que siempre esta buscando algo que hacer o aprender<br>
+            Mis estudios en cuanto a programacion son :
+            <div >
+               
+             <p >Nivel Medio Base de datos, Oracle</p>
+             <p >Nivel Medio Python</p>
+             <p >Nivel Medio C#</p>
+             <p >Nivel Medio Diseño en Blender</p>
+             <p >Nivel Basico Data Sience </p>
                
             </div>
-
+           
+             
+            <div class=" container m-2">
+                <div class="row justify-content-center pt-3">
+                    <i class="fa-brands fa-python fa-m col"></i>
+                    <i class="fa-solid fa-database fa-m col"></i>
+                    <i class="fa-solid fa-paintbrush fa-m col"></i>
+                </div>
+            </div>
+            <h2 class="m-2"> <span> Experiencia </span></h2>
+                E trabajado casi siempre fuera del area informatica,
+                 <br> tengo un emprendimiento de creacion en figuras 3D, 
+                 <br> Y trabajo en el area de Ti en la municipalidad de antofagasta
+            <p> Por lo cual espero Desafio Latam me ayude a posicionarme en el mercado.</p>
         </div>
-          
-
-       
-        <div class="container-fluid align-items-center flex-column">
-            <h2>Descripcion y habilidades</h2>
-            <p> Me llamo Jose venegas, me considero una persona bastante creativa,que siempre esta buscando algo que hacer o aprender<br>
-            tengo estudio en programacion , se manejar a nivel medio python, C# , Oracle.<br>
-             Tambien poseo conocimientos en bases de datos, wordpress y data science <br>
-            pero nunca e ejercido mas alla de crear paginas web o servicio tecnico.<br>
-             Por lo cual espero Desafio Latam me ayude a posicionarme en el mercado.</p>
-        </div>
-
-    </section>
-    <section class="row wrap flex-direction justify-content-center p-4">
-       
-        <div class="col-xs-12 col-md-3 m-4 "> 
-            <div class="card" style="width: 18rem;">
+        <div class="col-xs-12 col-md-3 m-4 align-items-center"> 
+            <div class="card bg-dark text-white" style="width: 18rem;">
                 <img src="assets/img/ilustracion_1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">habilidades</h5>
-                  <p class="card-text">Poseo una gran imaginacion, la cual plasmo en ilustraciones coloridas!</p>
-         
+                  <h5 class="card-title">HABILIDADES</h5>
+                  <p class="card-text"> Poseo una imaginacion bastante activa, lo cual plasmo en ilustraciones como la presente, ademas de poseer plasticidad para nuevos aprendizajes y desafios!!</p>
+                </div> 
+            </div>
+        </div>
+      
+     
+     
+    </section>
+    <!--Informacion de portafolio -->
+    <section class="row wrap flex-direction justify-content-center p-4 bg-dark space-around"  id="proyectos">
+     
+        <H3 class="text-center text-white">PORTAFOLIO</H3>
+    
+        <div class="col-xs-12 col-md-4 m-4 p-4 "> 
+            <div class="card " style="width: 18rem;">
+                <img src="assets/img/Proyecto_cv.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Primer proyecto</h5>
+                  <p class="card-text">Primer desafio se nos pidio crear un Cv en html</p>
+                  <a class="btn btn-primary" href="#" role="button">Link Proyecto 1</a>
+                </div> 
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 m-4 p-4"> 
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/proyecto_iguana.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Segundo proyecto</h5>
+                  <p class="card-text">Segundo desafio se nos pidio copiar la pagina de una iguana 
+                    <br> utilizando CSS.</p>
+                  <a class="btn btn-primary " href="#" role="button">Link Proyecto 2</a>
                 </div>
-              
-              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 m-4 p-4"> 
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/proyecto_cupon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tercer proyecto</h5>
+                  <p class="card-text">Se nos pidio recrear una pagina de cupones 
+                    <br> de esta manera pudimos entender como funcionan las columnas en bootstrap</p>
+                  <a class="btn btn-primary" href="#" role="button">Link Proyecto 3</a>
+                </div>
+            </div>
         </div>
 
     </section>
-<footer class="row bg-dark  justify-content-center text-black text-center pt-3 pb-5 px-2; text-white">
+
+<footer class="row bg-dark  justify-content-center text-black text-center pt-3 pb-5 px-2; text-white"  id="contacto">
         <div class="w-25">
             <h3 >Jose Venegas<br></h3>
             <p>Mis redes sociales!</p>
